@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础html</title>
+     <link href="/static/plugins/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link">AIGC图像风格化</a></li>
+      </ul>
+    </header>
+    <p>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link">3D风</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">写实风</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">天使风</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">动漫风</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">日漫风</a></li>
+      </ul>
+    </p>
+    {% block mainBody %}
+    {% endblock mainBody %}
+</body>
+</html>
